@@ -14,8 +14,9 @@
     1. API server is up and running.
     2. Third party services are up and running.
     3. Third party response data is mocked such that the transactions for the currency USD is delayed and approved, EUR is denied
-## Running Tests in local
-    •	Open the terminal
+## Running Tests in Local
+    •	Open the Command Prompt
+    •	Navigate to the project folder
     •	Run the cypress test from command Prompt using command below 
        ```npx cypress run --spec cypress\e2e\APITesting\WalletAPI.cy.js```
 ## Test Cases Implemented
@@ -28,3 +29,5 @@
     •	Balance verification when multiple transactions with same currency
     •	Transaction status and outcome for immediate response
     •	Transaction status and outcome for Delayed response before and after timeout
+ ## Test Plan   
+    Test Plan can be found at testPlan/TestPlan_WalletAPI.docx
