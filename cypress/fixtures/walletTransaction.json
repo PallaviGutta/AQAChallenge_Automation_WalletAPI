@@ -1,0 +1,20 @@
+
+{
+  "walletTransactionDetails":[
+      {
+        "currency": "INR",
+        "amount": 100,
+        "type": "credit"
+      },
+      {
+        "currency": "USD",
+        "amount": 50,
+        "type": "credit"
+      },
+      {
+        "currency": "EUR",
+        "amount": 30,
+        "type": "credit"
+      }
+    ] 
+}

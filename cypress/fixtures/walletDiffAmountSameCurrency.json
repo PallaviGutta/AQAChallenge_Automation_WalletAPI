@@ -1,0 +1,19 @@
+{
+    "transactionDetailsSameCurr":[
+        {
+          "currency": "AED",
+          "amount": 100,
+          "type": "credit"
+        },
+        {
+          "currency": "AED",
+          "amount": 50,
+          "type": "credit"
+        },
+        {
+          "currency": "AED",
+          "amount": 30,
+          "type": "credit"
+        }
+      ] 
+  }
