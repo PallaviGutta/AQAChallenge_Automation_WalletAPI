@@ -2,12 +2,12 @@
   This repository contains the Cypress automation framework for testing responses for Wallet REST API.
 ## Prerequisites
     Before running the tests, ensure you have the following installed:
-    `•`	Node.js (v22.13.0)
-    `•`wq	npm (v10.9.2)
+    '•'	Node.js (v22.13.0)
+    '•'	npm (v10.9.2)
 ## Setup and Installation
-    `1.`	Clone the repository:
-       ```git clone https://github.com/PallaviGutta/AQAChallenge_Automation_WalletAPI.git```
-    `2.` Install dependencies:
+    '1.'	Clone the repository:
+       '''git clone https://github.com/PallaviGutta/AQAChallenge_Automation_WalletAPI.git'''
+    2. Install dependencies:
         ```npm init npm install cypress --save-dev```
     `3.` Update fixture file user.json with valid credentials.
 ## Assumptions
