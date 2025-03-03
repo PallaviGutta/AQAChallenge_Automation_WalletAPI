@@ -15,6 +15,11 @@
         "currency": "EUR",
         "amount": 30,
         "type": "credit"
+      },
+      {
+        "currency": "CAD",
+        "amount": 30,
+        "type": "credit"
       }
     ] 
 }

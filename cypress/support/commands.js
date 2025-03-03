@@ -40,6 +40,7 @@ Cypress.Commands.add('loginByAuthApi',(username, password) => {
             expect(response.body.token).not.to.be.empty;
             expect(response.body).have.property('userId');
             expect(response.body.userId).not.to.be.empty;
+            Cypress.set('authToken',response.body.token);
             window.localStorage.setItem('authToken', response.body.token);
             window.localStorage.setItem('UserID', response.body.userId);
             
@@ -61,3 +62,22 @@ Cypress.Commands.add('loginByAuthApi',(username, password) => {
     }
       
 )
+
+
+Cypress.Commands.add('POSTApi',(pathParam , headersparam,requestBody)=>{
+    cy.request({
+        method: 'POST',
+        url: Cypress.config().baseUrl+pathParam,
+        headers: headersparam,
+        body: requestBody
+    })
+})
+
+Cypress.Commands.add('GETApi',(pathParam,headersparam)=>{
+    cy.request({
+        method: 'POST',
+        url: Cypress.config().baseUrl+pathParam,
+        headers: headersparam,
+        body: requestBody
+    })
+})
